@@ -1,0 +1,16 @@
+library(rvest)
+
+#Gather S&P 500
+spx_wiki<-"https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+spx <- spx_wiki %>%
+  html() %>%
+  html_nodes(xpath='//*[@id="mw-content-text"]/div/table[1]') %>%
+  html_table()
+
+#Create table and omit unwanted columns
+spx_companies <- SPX[[1]]
+omit_columns <- c('SEC filings','Date first added[3][4]', 'CIK')
+spx_companies[ ,omit_columns]<-list(NULL)
+head(spx_companies)
+
+
