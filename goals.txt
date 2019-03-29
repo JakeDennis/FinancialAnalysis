@@ -1,0 +1,35 @@
+Calculate the following
+  Current Ratio
+  Turnover Ratio
+  Price / Earnings Ratio (P/E)
+  Price / Earnings / Growth Ratio (PEG)
+  Cash Conversion Cycle (CCC)
+  
+ *Formula for DuPont Model
+  Net income / Revenue (Net Profit Margin)
+  x Sales / Average Total Assets (Return on Assets)
+  x Average Total Assets / Shareholder's Equity (Financial Leverage)
+  ______________________________
+  Return on Equity
+  
+ *Formula for Owner Earnings
+	Net Income
+	+ Net Change: Accounts Receivable
+	+ Net Change: Accounts Payable
+	+ Income Tax
+	+ Maintenance Capital Expenditures
+	______________________________
+	Owner Earnings 
+	X 10
+	______________________________
+	Ten Cap Price
+
+ *Formula for Payback Time (Free Cash Flow)
+	Net Cash Provided by Operating Activities
+	+ Purchase of Property and Equipment
+	+ Any Other Capital Expenditures for Maintenance and Growth
+	_______________________________
+	Free Cash Flow
+	x (1.16)8
+	__________
+	Payback Time
