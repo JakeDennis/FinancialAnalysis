@@ -1,6 +1,6 @@
-Work in progress repository that utilizes r and python to analyze securities for potential investment opportunities.
+Work in progress repository that will utilize r and python to analyze securities for potential investment opportunities.
 
-# Financial Metrics
+## Financial Metrics
   * Earnings / Share (EPS)
   * Earnings / Share Growth
   * Current Ratio
@@ -15,7 +15,7 @@ Work in progress repository that utilizes r and python to analyze securities for
     + X Sales / Average Total Assets (Return on Assets)
     + X Average Total Assets / Shareholder's Equity (Financial Leverage)
 	
-# Target Share Price
+## Target Share Price
   * Formula for Owner Earnings (Ten Cap Price)
 	+ Net Income
 	+ +Net Change: Accounts Receivable
