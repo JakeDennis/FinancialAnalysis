@@ -6,11 +6,11 @@ Calculate the following
   Cash Conversion Cycle (CCC)
   
  *Formula for DuPont Model
-  Net income / Revenue (Net Profit Margin)
-  x Sales / Average Total Assets (Return on Assets)
-  x Average Total Assets / Shareholder's Equity (Financial Leverage)
-  ______________________________
-  Return on Equity
+	Net income / Revenue (Net Profit Margin)
+	x Sales / Average Total Assets (Return on Assets)
+	x Average Total Assets / Shareholder's Equity (Financial Leverage)
+	______________________________
+	Return on Equity (ROE)
   
  *Formula for Owner Earnings
 	Net Income
