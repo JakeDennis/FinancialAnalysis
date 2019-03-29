@@ -1,3 +1,5 @@
+Work in progress repository that utilizes r and python to analyze securities for potential investment opportunities.
+
 # Financial Metrics
   * Earnings / Share (EPS)
   * Earnings / Share Growth
