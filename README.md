@@ -12,8 +12,8 @@ Work in progress repository that will utilize r and python to analyze securities
   * Cash Conversion Cycle (CCC)
   * Return on Equity (ROE / Formula for DuPont Model)
     + Net income / Revenue (Net Profit Margin)
-    + X Sales / Average Total Assets (Return on Assets)
-    + X Average Total Assets / Shareholder's Equity (Financial Leverage)
+    + *(Sales / Average Total Assets (Asset Turnover))
+    + *(Average Total Assets / Shareholder's Equity (Financial Leverage))
 	
 ## Target Share Price
   * Formula for Owner Earnings (Ten Cap Price)
