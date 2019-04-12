@@ -4,6 +4,7 @@ Work in progress repository that will utilize r and python to analyze securities
   * Earnings / Share (EPS)
   * Earnings / Share Growth
   * Current Ratio
+  * Working Capital
   * Turnover Ratio
   * Price / Earnings Ratio (P/E)
   * Price / Earnings / Growth Ratio (PEG)
@@ -22,18 +23,18 @@ Work in progress repository that will utilize r and python to analyze securities
 	+ +Net Change: Accounts Payable
 	+ +Income Tax
 	+ +Maintenance Capital Expenditures
-	______________________________
+	___
 	Owner Earnings 
 	X 10
-	______________________________
+	___
 
 
   * Formula for Payback Time (Free Cash Flow / Payback Time)
 	+ Net Cash Provided by Operating Activities
 	+ +Purchase of Property and Equipment
 	+ +Any Other Capital Expenditures for Maintenance and Growth
-	_______________________________
+	___
 	Free Cash Flow
 	x (1.16)8
-	__________
+	___
 
