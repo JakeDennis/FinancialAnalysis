@@ -1,10 +1,10 @@
 Work in progress repository that will utilize r and python to analyze securities for potential investment opportunities.
 
-#Goals
-## Watchlist.txt
+## Goals
+### Watchlist.txt
   * Tracking interesting companies that may be worth owning
   * Will be used to run fundamental and technical analyses on
-## Financial Metrics
+### Financial Metrics
   * Earnings / Share (EPS)
   * Earnings / Share Growth
   * Current Ratio
@@ -19,8 +19,8 @@ Work in progress repository that will utilize r and python to analyze securities
     + Net income / Revenue (Net Profit Margin)
     + *(Sales / Average Total Assets (Asset Turnover))
     + *(Average Total Assets / Shareholder's Equity (Financial Leverage))
-## Target Share Price
-  * Formula for Owner Earnings (Ten Cap Price)
+### Target Share Price
+  #### Formula for Owner Earnings (Ten Cap Price)
 	+ Net Income
 	+ +Net Change: Accounts Receivable
 	+ +Net Change: Accounts Payable
@@ -28,15 +28,13 @@ Work in progress repository that will utilize r and python to analyze securities
 	+ +Maintenance Capital Expenditures
 	___
 	Owner Earnings X 10
-	___
-  * Formula for Payback Time (Free Cash Flow / Payback Time)
+  #### Formula for Payback Time (Free Cash Flow / Payback Time)
 	+ Net Cash Provided by Operating Activities
 	+ +Purchase of Property and Equipment
 	+ +Any Other Capital Expenditures for Maintenance and Growth
 	___
 	Free Cash Flow X (1.16)8
-	___
-## Technical Analysis
+### Technical Analysis
   * Calculate daily, weekly, and monthly moving averages (50, 100, & 200)
   	+ Perform regression tests
 	+ Alert when securities are close to 200 week moving average
