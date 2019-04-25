@@ -3,8 +3,12 @@ Work in progress repository that will utilize r and python to analyze securities
 ## Goals
 ### Watchlist.txt
   * Tracking interesting companies that may be worth owning
-  * Will be used to run fundamental and technical analyses on
-### Financial Metrics
+  * Will be used to run fundamental and technical analysis functions 
+### Fundamental Analysis
+  * ~~Pull SPX tickers from Wikipedia~~
+  * ~~Pull financial statements for past 3 years~~
+  * Calculate leading sectors over 1, 3, 12, 36, 60, 120, 240 months
+#### Financial Metrics
   * Earnings / Share (EPS)
   * Earnings / Share Growth
   * Current Ratio
@@ -19,8 +23,8 @@ Work in progress repository that will utilize r and python to analyze securities
     + Net income / Revenue (Net Profit Margin)
     + *(Sales / Average Total Assets (Asset Turnover))
     + *(Average Total Assets / Shareholder's Equity (Financial Leverage))
-### Target Share Price
-  #### Formula for Owner Earnings (Ten Cap Price)
+#### Target Share Price
+  ##### Formula for Owner Earnings (Ten Cap Price)
 	Net Income
 	+Net Change: Accounts Receivable
 	+Net Change: Accounts Payable
@@ -28,7 +32,7 @@ Work in progress repository that will utilize r and python to analyze securities
 	+Maintenance Capital Expenditures
 	___
 	Owner Earnings X 10
-  #### Formula for Payback Time (Free Cash Flow / Payback Time)
+  ##### Formula for Payback Time (Free Cash Flow / Payback Time)
 	Net Cash Provided by Operating Activities
 	+Purchase of Property and Equipment
 	+Any Other Capital Expenditures for Maintenance and Growth
@@ -44,3 +48,6 @@ Work in progress repository that will utilize r and python to analyze securities
   * Calculate RSI for weekly and monthly timeframes
 	+ Find securities with upward trends over extended timeframes
 	+ Alert when securities are overbought or oversold
+### Options Analysis
+  * Calculate greeks for security options contracts
+  * Calculate IV for securities
