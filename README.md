@@ -21,17 +21,17 @@ Work in progress repository that will utilize r and python to analyze securities
     + *(Average Total Assets / Shareholder's Equity (Financial Leverage))
 ### Target Share Price
   #### Formula for Owner Earnings (Ten Cap Price)
-	+ Net Income
-	+ +Net Change: Accounts Receivable
-	+ +Net Change: Accounts Payable
-	+ +Income Tax
-	+ +Maintenance Capital Expenditures
+	Net Income
+	+Net Change: Accounts Receivable
+	+Net Change: Accounts Payable
+	+Income Tax
+	+Maintenance Capital Expenditures
 	___
 	Owner Earnings X 10
   #### Formula for Payback Time (Free Cash Flow / Payback Time)
-	+ Net Cash Provided by Operating Activities
-	+ +Purchase of Property and Equipment
-	+ +Any Other Capital Expenditures for Maintenance and Growth
+	Net Cash Provided by Operating Activities
+	+Purchase of Property and Equipment
+	+Any Other Capital Expenditures for Maintenance and Growth
 	___
 	Free Cash Flow X (1.16)8
 ### Technical Analysis
@@ -40,7 +40,7 @@ Work in progress repository that will utilize r and python to analyze securities
 	+ Alert when securities are close to 200 week moving average
   * Calculate for Alpha against benchmarks over 3, 12, 36, 120, and 240-month timeframes.
   	+ Ticker/SPX
-	+ Ticker/<Industry ETF>
-  * Calculate RSI on weekly and monthly timeframes
+	+ Ticker/Industry ETF
+  * Calculate RSI for weekly and monthly timeframes
 	+ Find securities with upward trends over extended timeframes
 	+ Alert when securities are overbought or oversold
