@@ -1,5 +1,34 @@
 # Secular Trend Ideas
 ___
+## Collaboration, Productivity, & Social Media (Web 3.0)
+  * Open-source software
+  * Productivity/Collaboration tools
+  * Messaging services
+  * Social media advertising
+   ### Tickers
+    * COUP
+    * ESTC
+    * FB
+    * IBM
+    * PINS
+    * MDB
+    * MSFT
+    * TEAM
+    * Slack (not public as of 5/6/2019)
+    * TWTR
+    * ZM
+## Consumer Goods
+  * Steady growth
+  * Ethical sourcing
+  * Athleisure fashion
+   #### Tickers
+    * NKE
+    * LULU
+    * STZ
+    * TWLO
+    * UAA
+    * ULTA
+
 ## Data
   * Storage
   * BI Software
@@ -16,7 +45,7 @@ ___
   * Solar
   * Wind
   * Battery Technology
-  * Lithium
+  * Lithium Demand
     ### Tickers
     * ALB
 ## Finance
@@ -33,15 +62,26 @@ ___
     * DFS
     * V
     * MA
-## Food
+## Food & Drink
   * Fast casual dining
   * Delivery service
   * Ethical sourcing
+  * Craft beer demand increasing
+  * Cannabis use being deregulated
     ### Tickers
     * MCD
     * CMG
     * BYND
     * GRUB
+    * STZ
+## Information Security
+  * Phishing and ransomware threats increasing
+  * Potential for data regulations
+  * Data breaches increasing
+   #### Tickers
+    * PFPT
+    * FEYE
+    * ZS
 ## Gaming
   * Game Publishers
   * Hardware
@@ -52,6 +92,18 @@ ___
     * NTDOY
     * MSFT
     * TCEHY
+## Retail Goods
+  * Increased web use for retail purchases
+  * Delivery services
+  * Custom/tailored products to consumer
+   #### Tickers
+    * AMZN
+    * EBAY
+    * ETSY
+    * FB
+    * PINS
+    * SFIX
+    * TWLO
 ## Robotics
   * Manufacturing
     ### Tickers
