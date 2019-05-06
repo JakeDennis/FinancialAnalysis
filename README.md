@@ -3,11 +3,15 @@ Work in progress repository that will utilize r and python to analyze securities
 ## Goals
 ### Watchlist.txt
   * Tracking interesting companies that may be worth owning
-  * Will be used to run fundamental and technical analysis functions 
+  * Will be used to run fundamental and technical analysis functions
+### SecularTrendIdeas.md
+  * Brainstorming highest areas of growth and disruption in the marketplace
+  * Will be used to identify best sectors for portfolio exposure
 ### Fundamental Analysis
   * ~~Pull SPX tickers from Wikipedia~~
   * ~~Pull financial statements for past 3 years~~
-  * Calculate leading sectors over 1, 3, 12, 36, 60, 120, 240 months
+  * Investigate if longer term financials can be imported (5 or 10 years)
+  * Calculate leading sectors over 1, 3, 12, 36, 60, 120, 240 months (alpha)
 #### Financial Metrics
   * Earnings / Share (EPS)
   * Earnings / Share Growth
@@ -42,7 +46,7 @@ Work in progress repository that will utilize r and python to analyze securities
   * Calculate daily, weekly, and monthly moving averages (50, 100, & 200)
   	+ Perform regression tests
 	+ Alert when securities are close to 200 week moving average
-  * Calculate for Alpha against benchmarks over 3, 12, 36, 120, and 240-month timeframes.
+  * Calculate for outperformance (alpha) against benchmarks over 3, 12, 36, 120, and 240-month timeframes.
   	+ Ticker/SPX
 	+ Ticker/Industry ETF
   * Calculate RSI for weekly and monthly timeframes
