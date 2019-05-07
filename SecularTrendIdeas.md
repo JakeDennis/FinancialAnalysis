@@ -21,7 +21,8 @@ ___
   * Steady growth
   * Ethical sourcing
   * Athleisure fashion
-   #### Tickers
+   ### Tickers
+    * GOOS
     * NKE
     * LULU
     * STZ
@@ -52,7 +53,7 @@ ___
   * Payments
   * ETFs
   * Blockchain
-  * Net Interest Rate rising
+  * Net Interest Margin rising
     ### Tickers
     * SQ
     * PYPL
@@ -73,6 +74,7 @@ ___
     * CMG
     * BYND
     * GRUB
+    * SHAK
     * STZ
 ## Information Security
   * Phishing and ransomware threats increasing
@@ -85,6 +87,7 @@ ___
 ## Gaming
   * Game Publishers
   * Hardware
+  * Mobile Gaming
   * Virtual Reality
     ### Tickers
     * TTWO
@@ -96,7 +99,7 @@ ___
   * Increased web use for retail purchases
   * Delivery services
   * Custom/tailored products to consumer
-   #### Tickers
+   ### Tickers
     * AMZN
     * EBAY
     * ETSY
@@ -106,12 +109,13 @@ ___
     * TWLO
 ## Robotics
   * Manufacturing
+  * Medical
     ### Tickers
     * BSX
     * TER
     * ISRG
 ## Semiconductor Manufacturers
-  * AI
+  * Artificial intelligence
   * Automobiles
   * Big data consumption
   * Gaming
