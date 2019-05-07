@@ -6,30 +6,29 @@ ___
   * Messaging services
   * Social media advertising
    ### Tickers
-    * COUP
-    * ESTC
-    * FB
-    * IBM
-    * PINS
-    * MDB
-    * MSFT
-    * TEAM
-    * Slack (not public as of 5/6/2019)
-    * TWTR
-    * ZM
+   * COUP
+   * ESTC
+   * FB
+   * IBM
+   * PINS
+   * MDB
+   * MSFT
+   * TEAM
+   * Slack (not public as of 5/6/2019)
+   * TWTR
+   * ZM
 ## Consumer Goods
   * Steady growth
   * Ethical sourcing
   * Athleisure fashion
    ### Tickers
-    * GOOS
-    * NKE
-    * LULU
-    * STZ
-    * TWLO
-    * UAA
-    * ULTA
-
+   * GOOS
+   * NKE
+   * LULU
+   * STZ
+   * TWLO
+   * UAA
+   * ULTA
 ## Data
   * Storage
   * BI Software
@@ -80,10 +79,10 @@ ___
   * Phishing and ransomware threats increasing
   * Potential for data regulations
   * Data breaches increasing
-   #### Tickers
-    * PFPT
-    * FEYE
-    * ZS
+   ### Tickers
+   * PFPT
+   * FEYE
+   * ZS
 ## Gaming
   * Game Publishers
   * Hardware
@@ -100,13 +99,13 @@ ___
   * Delivery services
   * Custom/tailored products to consumer
    ### Tickers
-    * AMZN
-    * EBAY
-    * ETSY
-    * FB
-    * PINS
-    * SFIX
-    * TWLO
+   * AMZN
+   * EBAY
+   * ETSY
+   * FB
+   * PINS
+   * SFIX
+   * TWLO
 ## Robotics
   * Manufacturing
   * Medical
