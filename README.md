@@ -42,10 +42,15 @@ Work in progress repository that will utilize r and python to analyze securities
 	+Any Other Capital Expenditures for Maintenance and Growth
 	___
 	Free Cash Flow X (1.16)8
+#### Greenblatt Formula
+  * Recursively scan for top companies based on Greenblatt's method. Exclude financial and utility stocks.
+    + Calculate company's earnings yield (EBIT / Enterprise Value)
+    + Calculate company's return on capital (EBIT/(net fixed assets + working capital))
 ### Technical Analysis
   * Calculate daily, weekly, and monthly moving averages (50, 100, & 200)
   	+ Perform regression tests
 	+ Alert when securities are close to 200 week moving average
+	+ Calculate moving volume-weighted average price (MVWAP)
   * Calculate for outperformance (alpha) against benchmarks over 3, 12, 36, 120, and 240-month timeframes.
   	+ Ticker/SPX
 	+ Ticker/Industry ETF
