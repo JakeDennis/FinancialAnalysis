@@ -28,7 +28,7 @@ Work in progress repository that will utilize r and python to analyze securities
     + *(Sales / Average Total Assets (Asset Turnover))
     + *(Average Total Assets / Shareholder's Equity (Financial Leverage))
 #### Target Share Price
-  ##### Formula for Owner Earnings (Ten Cap Price)
+  ##### ~~Formula for Owner Earnings (Ten Cap Price)~~
 	Net Income
 	+Net Change: Accounts Receivable
 	+Net Change: Accounts Payable
@@ -36,7 +36,7 @@ Work in progress repository that will utilize r and python to analyze securities
 	+Maintenance Capital Expenditures
 	___
 	Owner Earnings X 10
-  ##### Formula for Payback Time (Free Cash Flow / Payback Time)
+  ##### ~~Formula for Payback Time (Free Cash Flow / Payback Time)~~
 	Net Cash Provided by Operating Activities
 	+Purchase of Property and Equipment
 	+Any Other Capital Expenditures for Maintenance and Growth
