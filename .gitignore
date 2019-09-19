@@ -1,0 +1,13 @@
+<<<<<<< HEAD
+*.ipynb_checkpoints*
+*.ps1
+__pycache__/
+.vs
+.vscode/
+*.code-workspace
+=======
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+>>>>>>> 57b65f1802435706a2759ce58d51cfeb87bc6242
