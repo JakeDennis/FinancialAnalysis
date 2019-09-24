@@ -13,20 +13,64 @@ Work in progress repository that will utilize r and python to analyze securities
   * Investigate if longer term financials can be imported (5 or 10 years)
   * Calculate leading sectors over 1, 3, 12, 36, 60, 120, 240 months (alpha)
 #### Financial Metrics
+  * Asset Ratios
   * Earnings / Share (EPS)
   * Earnings / Share Growth
+  * Book Value / Share (BVPS)
+  * Cash Flow
+    + FCF/Sales
+    + FCF/Share
+    + Operating CF/Net Income
+  * Capital Intensity
+    + CapEx/Sales
+    + CapEx/Net Income
   * Current Ratio
+  * Growth
+    + Momentum
+      + EPS growth
+      + Margins growth
+      + Revenue growth
+    + Stability
+      + BVPS trend
+    + Quality
+      + EPS growth vs. Revenue growth
+      + Leverage
+  * Liability Ratios
+  * Margins
+    + Gross Margin
+    + Net Margin
+  * Momentum
+    + Upward Trends in the Following
+      + Margins
+      + ROIC
+      + Liquidity (Current ratio, quick ratio, & cash ratio)
+    + Downward Trends in the Following
+      + Debt Loads (Debt/Equity)
+      + Cash Conversion Cycle
+      + Payout Ratio
+      + Inventory / Sales
   * Working Capital
   * Turnover Ratio
-  * Price / Earnings Ratio (P/E)
+  * Price / Earni
   * Price / Earnings / Growth Ratio (PEG)
   * Dividend Yield
   * Dividend Payout Ratio
   * Cash Conversion Cycle (CCC)
+  * Cash Return on Invested Capital (CROIC)
+  * Return on Assets (ROA)
+  * Return on Tangible Assets (ROTA)
+    + Net Income / ((Total Assets[0] - Intangible Assets[0] + Total Assets[1] - Intangible Assets[1])/2)
+  * Return on Invested Capital (ROIC)
   * Return on Equity (ROE / Formula for DuPont Model)
     + Net income / Revenue (Net Profit Margin)
     + *(Sales / Average Total Assets (Asset Turnover))
     + *(Average Total Assets / Shareholder's Equity (Financial Leverage))
+#### Peer Analysis
+  * Relative Strength of the Following
+    + Debt Load
+    + Growth
+    + Margins
+    + ROIC
 #### Target Share Price
   ##### ~~Formula for Owner Earnings (Ten Cap Price)~~
 	Net Income
@@ -41,7 +85,8 @@ Work in progress repository that will utilize r and python to analyze securities
 	+Purchase of Property and Equipment
 	+Any Other Capital Expenditures for Maintenance and Growth
 	___
-	Free Cash Flow X (1.16)8
+	Free Cash Flow X (1.16)*8
+  ##### Discounted Free Cash Flow * Margin of Safety
 #### Greenblatt Formula
   * Recursively scan for top companies based on Greenblatt's method. Exclude financial and utility stocks.
     + Calculate company's earnings yield (EBIT / Enterprise Value)
