@@ -1,7 +1,13 @@
-from urllib.request import urlopen
+import argparse
+import datetime as dt
 import json
 import pandas as pd
-import datetime as dt
+from urllib.request import urlopen
+
+parser = argparse.ArgumentParser(prog='financial_performance', description='Stock ticker input')
+parser.add_argument('ticker', type=str, help='Input a stock ticker symbol to query financial records.')
+args = parser.parse_args(args[])
+ticker = args.ticker
 
 def get_financial_records(ticker):
     def get_fmp_jsondata(url):
@@ -24,13 +30,13 @@ def get_financial_records(ticker):
     except:
         print(f"Could not query for {ticker} on Financial Modeling Prep's API.")
 
-    try:
-        income_statement = pd.DataFrame(income_statement['financials']).transpose()
-        balance_sheet = pd.DataFrame(balance_sheet['financials']).transpose()
-        statement_of_cash_flows = pd.DataFrame(statement_of_cash_flows['financials']).transpose()
-        enterprise_values = pd.DataFrame(enterprise_values['enterpriseValues']).transpose()
-    except:
-        print(f'Unable to process {ticker}.')
+    #try:
+        income_statement = pd.DataFrame(income_statement['financials'])
+        balance_sheet = pd.DataFrame(balance_sheet['financials'])
+        statement_of_cash_flows = pd.DataFrame(statement_of_cash_flows['financials'])
+        enterprise_values = pd.DataFrame(enterprise_values['enterpriseValues'])
+    #except:
+    #   print(f'Unable to process {ticker}.')
 
     try:
         price = price['price']
@@ -40,4 +46,4 @@ def get_financial_records(ticker):
 
     return income_statement, balance_sheet, statement_of_cash_flows, enterprise_values, price
 
-
+get_financial_records(ticker)
