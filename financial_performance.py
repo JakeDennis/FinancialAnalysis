@@ -131,36 +131,33 @@ def metric_growth(metric, df):
     metric_growth = []
     for year in range(total_years):
         last_year = year + 1
-        metric_growth_rate = round(((df[metric][year] - df[metric][last_year]) / df[metric][last_year]), 3)
+        metric_growth_rate = round(((df[metric][year] - df[metric][last_year]) / df[metric][last_year]), 4)
         metric_growth.append(metric_growth_rate)
     metric_growth.append(float('NaN'))
     index = df.columns.get_loc(metric) + 1
 
     try:
-        df.insert(index, f'{metric} Growth Rate', metric_growth, True)
+        df.insert(index, f'{metric} Growth', metric_growth, True)
     except ValueError:
-        df.insert(index, f'{metric} Growth Rate', pd.Series(metric_growth), True)
+        df.insert(index, f'{metric} Growth', pd.Series(metric_growth), True)
     return df
 
-#Call parent function with ticker and save to dataframes
+#call parent function with ticker and save to dataframes
 income_statement, balance_sheet, statement_of_cash_flows, price = get_financial_records(ticker)
 
-print(income_statement, balance_sheet, statement_of_cash_flows)
-
 metric_growth('EPS', income_statement)
-metric_growth('Revenue', income_statement)
 metric_growth('Operating Income', income_statement)
 metric_growth('Cash and cash equivalents', balance_sheet)
 metric_growth('Book Value per Share', balance_sheet)
 metric_growth('Free Cash Flow', statement_of_cash_flows)
 
 metric_growth_rates = {
-    'EPS Growth Rate': income_statement['EPS Growth Rate'],
-    'Book Value per Share Growth Rate': balance_sheet['Book Value per Share Growth Rate'],
-    'Revenue Growth Rate': income_statement['Revenue Growth Rate'],
-    'Operating Income Growth Rate': income_statement['Operating Income Growth Rate'],
-    'Free Cash Flow Growth Rate': statement_of_cash_flows['Free Cash Flow Growth Rate'],
-    'Cash and cash equivalents Growth Rate': balance_sheet['Cash and cash equivalents Growth Rate']
+    'EPS Growth Rate': income_statement['EPS Growth'],
+    'Book Value per Share Growth Rate': balance_sheet['Book Value per Share Growth'],
+    'Revenue Growth Rate': income_statement['Revenue Growth'],
+    'Operating Income Growth Rate': income_statement['Operating Income Growth'],
+    'Free Cash Flow Growth Rate': statement_of_cash_flows['Free Cash Flow Growth'],
+    'Cash and cash equivalents Growth Rate': balance_sheet['Cash and cash equivalents Growth']
 }
 
 #create new df to display current, ten cap, and private company price
@@ -175,6 +172,35 @@ growth_df = pd.DataFrame()
 for rate in metric_growth_rates:
     growth_df.insert(index, rate, metric_growth_rates[rate], True)
     index += 1
+growth_df = growth_df.transpose()
 
+def find_averages(df, metrics, average_lengths):
+    avg_df = pd.DataFrame()
+    index = 0
+    average_names = average_lengths.keys()
+
+    def find_avg(df, metric, period_length):
+        average_rate = round(df.loc[metric, range(period_length)].mean(), 4)
+        return average_rate
+
+    for length in average_names:
+        avg_growth_rates = {}
+        for metric in metrics:
+           avg_growth_rates[metric] = find_avg(df, metric, average_lengths[length])
+
+        avg_df.insert(index, length, avg_growth_rates.values(), True)
+        index += 1
+    avg_df = avg_df.set_index(metrics)
+    return avg_df
+
+#find moving average growth rates for metrics
+average_lengths = {'3 Year Avg' : 3, '5 Year Avg' : 5, '8 Year Avg' : 8}
+growth_averages_df = find_averages(growth_df, growth_df.index, average_lengths)
+growth_df = pd.concat([growth_df, growth_averages_df], axis=1)
+date_index = pd.Series(income_statement['date']).dt.date
+growth_df = growth_df[0:9].rename(columns=date_index)
+
+#print(income_statement, balance_sheet, statement_of_cash_flows)
+print(growth_df.to_string())
+#print('----------------------------------------------------------------------------------------------------------------------------------------')
 print(price_df)
-print(growth_df.transpose())
