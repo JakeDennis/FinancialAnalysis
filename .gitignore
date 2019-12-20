@@ -11,4 +11,5 @@ venv/
 .Ruserdata
 SampleTickers.txt
 SecularTrendIdeas.md
+watchlist.txt
 Workflow.ipynb
