@@ -202,5 +202,4 @@ growth_df = growth_df[0:9].rename(columns=date_index)
 
 #print(income_statement, balance_sheet, statement_of_cash_flows)
 print(growth_df.to_string())
-#print('----------------------------------------------------------------------------------------------------------------------------------------')
-print(price_df)
+print(price_df.to_string())

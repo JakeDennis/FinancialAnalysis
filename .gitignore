@@ -1,8 +1,9 @@
+__pycache__/
+venv/
+.vscode/
 *.ipynb_checkpoints*
 *.ps1
-__pycache__/
 .vs
-.vscode/
 *.code-workspace
 .Rproj.user
 .Rhistory
